@@ -1,0 +1,33 @@
+/**
+ * @name huutao
+ * @author DaBluLite
+ * @version 5.0.0
+ * @description Clean and Customizable, with custom background support
+ * @source https://dablulite.github.io/Cyan/Cyan.theme.css
+ * @invite ZfPH6SDkMW
+ * @website https://github.com/DaBluLite/Cyan
+ * @authorId 582170007505731594
+ * @BDEditor Cyan
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=comic+sans:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+@import url('https://dablulite.github.io/Cyan/import.css');
+
+:root {
+  --cyan-background-img: url('https://initiate.alphacoders.com/images/125/cropped-2560-1440-1256317.jpg?9974');
+  --cyan-blur-radius: 1px;
+  --cyan-accent-color: #472A04;
+  --cyan-background-hue: 0;
+  --cyan-elevation-shadow: 0 0 0 1.5px var(--cyan-accent-color), 0 2px 10px 0 rgb(0 0 0 / 60%);
+  --cyan-tint-visibility: 8%;
+  --cyan-text-shadow: 1;
+  --cyan-font: comic sans; /* Custom font | Default: 'Montserrat' */
+  --window-margin: 0;
+  --window-border-radius: 8px;
+  --cyan-background-primary: hsla(var(--cyan-background-hue) var(--cyan-tint-visibility) var(--cyan-background-lightness) / 40%);
+}
+
+/* Any custom CSS below here */
+
+
